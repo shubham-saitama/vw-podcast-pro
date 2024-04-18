@@ -1,0 +1,9 @@
+/**
+ * admin extra css
+ */
+
+div#album_songs_meta_box,
+ul#song-list {
+    max-height: 330px;
+    overflow: scroll;
+}

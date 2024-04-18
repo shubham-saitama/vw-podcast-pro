@@ -1,0 +1,91 @@
+.eco-box{
+	display: none;
+}
+.i-amphtml-sidebar-mask {
+    position: static!important
+}
+#sidebar1{
+	width: 250px !important;
+}
+.i-amphtml-sidebar-mask{
+	width: 0 !important;
+	height: 0 !important;
+}
+amp-sidebar#sidebar1{
+  display: block !important;
+}
+.i-amphtml-sidebar-mask{
+	background-color: transparent !important;
+}
+[class*="amphtml-sidebar-mask"] { background: none; z-index: 999; }
+.owl-carousel {
+    display: inline-block !important;
+}
+.owl-carousel{
+    position: relative;
+    min-height: 1px;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    width: 100%;
+}
+#offer1 .product-offers-content{
+	width: 100%;
+}
+.trend-content{
+	float: left;
+	width: 50%;
+} 
+#offers2 .product-offers-content{
+	float: left;
+	width: 32%;
+	margin-right:10px;
+}
+.our-partners-images amp-img{
+	float: left;
+	width: 23%;
+	margin-right: 10px;
+}
+.news-content{
+	float: left;
+	width: 49%;
+	margin-right: 10px;
+}
+#offers3 .product-offers-content{
+	float: left;
+	width: 50%;
+} 
+#instagram amp-img{
+	width: 16%;
+	float: left;
+}
+#footer .copyright p{
+	color: white !important;
+}
+span.credit_link a{
+	color: #494848 !important;
+}
+.toys-content {
+	float: left;
+	width: 22%;
+	margin-right: 20px;
+}
+#toys .product-cart a.button, #trend-prod .product-cart a.button,#instagram{
+  display: none;
+}
+#toys .popular-toys-box:before{
+  border-left: 114px solid transparent;
+}
+@media screen and (max-width: 768px){
+  .trend-content,#offers2 .product-offers-content,.news-content,#offers3 .product-offers-content,#instagram amp-img{
+	width: 100%;
+  }
+  .toys-content{
+  	width: 100%;
+  }
+  #trend-prod .trending-products-box:after{
+  	border-top: 0px;
+  	border-left: 0px;
+  	border-bottom: 0px;
+  }
+}

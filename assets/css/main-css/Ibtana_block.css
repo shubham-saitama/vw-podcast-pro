@@ -1,0 +1,415 @@
+
+
+
+/* ibtana block style 
+ */
+
+
+.services-wrap .service-card {
+  width: 420px;
+  height: 315px !important;
+}
+
+
+img.wp-block-cover__image-background {
+  height: 315px !important;
+}
+
+.services-data-wrap {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  z-index: 999;
+}
+
+.service-card figure img {
+  height: 315px;
+}
+
+.service-card .services-data-wrap figure img {
+  height: 43px !important;
+  object-fit: cover;
+}
+
+.service-img img {
+  height: 210px;
+  object-fit: cover;
+}
+
+.padding-top {
+  padding-top: 20px !important;
+}
+
+.step-margin-bottom {
+  margin-bottom: 200px !important;
+}
+
+.ib-step-wrap {
+  max-width: 431px;
+  position: relative;
+}
+
+.step-justify-start {
+  justify-content: flex-start !important;
+}
+
+.step-justify-end {
+  justify-content: space-evenly !important;
+}
+
+.steps-images {
+  width: 74px !important;
+  height: 74px !important;
+}
+
+.wp-block-group.ib-step-wrap.htrid::after {
+  content: "";
+  width: 19%;
+  left: 7%;
+  top: -80%;
+  z-index: -99;
+  height: 110%;
+  background-image: repeating-linear-gradient(-60deg, var(--primary-color), var(--primary-color) 4px, transparent 4px, transparent 8px, var(--primary-color) 8px), repeating-linear-gradient(30deg, #0000, #0000 4px, transparent 4px, transparent 8px, var(--primary-color) 8px), repeating-linear-gradient(120deg, #0000, #0000 4px, transparent 4px, transparent 8px, var(--primary-color) 8px), repeating-linear-gradient(210deg, var(--primary-color), var(--primary-color) 4px, transparent 4px, transparent 8px, var(--primary-color) 8px);
+  background-size: 1px 100%, 100% 1px, 1px 100%, 100% 1px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+  left: -22%;
+  position: absolute;
+}
+
+.wp-block-group.ib-step-wrap.second::after {
+  content: "";
+  width: 68%;
+  left: -3%;
+  top: 40%;
+  z-index: -99;
+  height: 100%;
+  background-image: repeating-linear-gradient(-60deg, var(--primary-color), var(--primary-color) 4px, transparent 4px, transparent 8px, var(--primary-color) 8px), repeating-linear-gradient(30deg, var(--primary-color), var(--primary-color) 4px, transparent 4px, transparent 8px, var(--primary-color) 8px), repeating-linear-gradient(120deg, #0000, #0000 4px, transparent 4px, transparent 8px, var(--primary-color) 8px), repeating-linear-gradient(210deg, #0000, #0000 4px, transparent 4px, transparent 8px, var(--primary-color) 8px);
+  background-size: 1px 100%, 100% 1px, 1px 100%, 100% 1px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+  left: -82%;
+  position: absolute;
+}
+
+
+
+.wp-block-group.ib-step-wrap.forth::after {
+  content: "";
+  width: 28%;
+  left: -3%;
+  top: -70%;
+  z-index: -99;
+  height: 100%;
+  background-image: repeating-linear-gradient(-60deg, var(--primary-color), var(--primary-color) 4px, transparent 4px, transparent 8px, var(--primary-color) 8px), repeating-linear-gradient(30deg, #0000, #0000 4px, transparent 4px, transparent 8px, var(--primary-color) 8px), repeating-linear-gradient(120deg, #0000, #0000 4px, transparent 4px, transparent 8px, var(--primary-color) 8px), repeating-linear-gradient(210deg, var(--primary-color), var(--primary-color) 4px, transparent 4px, transparent 8px, var(--primary-color) 8px);
+  background-size: 1px 100%, 100% 1px, 1px 100%, 100% 1px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+  left: -32%;
+  position: absolute;
+}
+
+
+.pricing-card-col1,
+.pricing-card-col {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+}
+
+p.has-background {
+  padding: 0px !important;
+}
+
+figure.wp-block-image.size-full.services-icon img {
+  width: 60px !important;
+  height: 60px !important;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+.services-wrap .wp-block-ive-slide {
+  position: relative;
+}
+
+.services-wrap .wp-block-ive-slide::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  height: 315px;
+  width: 100%;
+  margin-top: 100px;
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  background-color: #000;
+  opacity: 0.6;
+  content: "";
+  transition: 0.3s ease-in-out;
+}
+
+.services-wrap .wp-block-ive-slide::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  height: 315px;
+  width: 100%;
+  margin-top: 160px;
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  background-color: #000000;
+  opacity: 0.6;
+  content: "";
+  transition: 0.3s ease-in-out;
+}
+
+.services-wrap .wp-block-ive-slide:hover::before {
+  margin-top: 10px;
+  opacity: 0.4;
+  background-color: var(--primary-color);
+}
+
+.services-wrap .wp-block-ive-slide:hover::after {
+  margin-top: 70px;
+  opacity: 0.8;
+}
+
+
+.testimonial-img {
+  width: 273px !important;
+  height: 324px !important;
+}
+
+.testimonial-card {
+  margin-right: -7px !important;
+}
+
+.testi-column {
+  padding: 0px 40px !important;
+}
+
+.team-slider .wp-block-group {
+  box-shadow: 1px 3px 12px #00000029;
+  margin: 10px;
+}
+
+.blog-slider img.wp-block-cover__image-background {
+  height: 100% !important;
+}
+
+.blog-slider .wp-block-cover {
+  align-items: flex-end !important;
+  padding: 30px !important;
+}
+
+.blog-date {
+  /* width: 50px; */
+  width: 70px !important;
+  height: 70px !important;
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  background: var(--primary-color);
+  position: absolute;
+  top: 20px;
+}
+
+.steps-images {
+  box-shadow: 0px 0px 12px #00000029;
+  padding: 20px;
+}
+
+.wp-block-cover>img {
+  height: 100% !important;
+}
+
+.counter-row-gap {
+  gap: 90px;
+  margin-top: 40px !important;
+}
+
+p.first-para {
+  margin-bottom: 100px !important;
+}
+
+.video-class {
+  max-width: 280px !important;
+  background: var(--primary-color);
+  padding: 20px 21px;
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+}
+
+.video-container {
+  position: relative;
+}
+
+.choose-padding {
+  padding: 50px 140px !important;
+}
+
+.wp-container-37 {
+  margin-right: 100px !important;
+  margin-top: 50px !important;
+}
+
+.wp-block-cover.getonTouchCover {
+  padding: 0px !important;
+}
+
+.getonTouchCover .container {
+  margin: 0px auto !important;
+  position: relative;
+}
+
+.getonTouchCover .container::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: -90%;
+  top: 0;
+  background-color: #000;
+  position: absolute;
+}
+
+.get-touch-card {
+  width: 263px;
+  /* height: 165px; */
+  padding: 20px 25px;
+  position: relative;
+  z-index: 99;
+}
+
+.get-touch-card::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -99;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.getTouch-right {
+  justify-content: center;
+  align-items: flex-end !important;
+  height: 100% !important;
+  gap: 0px 20px;
+}
+.container .wp-block-cover {
+  padding: 40px 0px;
+}
+.ive-blocks-accordion-title{
+  color: #000 !important;
+}
+.popupIcohn {
+  z-index: 0;
+}
+.ive-popup-main-parent_7b7f12-5c .ive-pop-title-text i{
+  height: 0px !important;
+}
+@media(max-width:1400px) {
+
+  .wp-block-group.ib-step-wrap.htrid::after,
+  .wp-block-group.ib-step-wrap.second::after,
+  .wp-block-group.ib-step-wrap.forth::after {
+    display: none !important;
+  }
+
+  h2.has-medium-font-size {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+
+@media(max-width:991px) {
+  .banner-slider-img img {
+    height: 60vh !important;
+  }
+
+  .why-chooseus-block .is-layout-flex {
+    flex-direction: column !important;
+  }
+
+  .choose-padding {
+    padding: 30px !important;
+  }
+
+  .step-margin-bottom {
+    flex-direction: column !important;
+  }
+
+  .wp-container-37 {
+    margin: 20px 0px !important;
+  }
+
+  .wp-container-45 {
+    flex-direction: column !important;
+  }
+
+  .step-margin-bottom {
+    margin-bottom: 30px !important;
+  }
+
+  .testimonial-slide-flex {
+    flex-direction: column !important;
+  }
+
+  .has-large-font-size {
+    font-size: unset !important;
+  }
+
+  .why-choose--bock-row {
+    flex-direction: column !important;
+  }
+}
+@media(max-width:781px){
+  img.wp-block-cover__image-background.wp-image-484{
+    display: none;
+  }
+  .wp-block-cover.getonTouchCover{
+    background-color: #000;
+  }
+
+}
+@media only screen and (max-width: 767px) {
+  .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+    width: 100% !important;
+  }
+
+  .video-class {
+    left: 120px;
+    right: 0;
+    margin: auto;
+  }
+
+  .counter-row-gap {
+    flex-direction: column !important;
+  }
+
+  .feature-blovk {
+    flex-direction: column;
+  }
+}
+
+@media(max-width:991px) {
+  .banner-slider-img img {
+    height: 80vh !important;
+  }
+
+  .service-img {
+    width: 190px !important;
+  }
+  .home .banner-content .ccb-appearance-field{
+    padding: 2px 20px 0px !important;
+  }
+}
+@media(max-width:575px){
+  .getTouch-right {
+    flex-direction: column;
+  }
+ 
+}

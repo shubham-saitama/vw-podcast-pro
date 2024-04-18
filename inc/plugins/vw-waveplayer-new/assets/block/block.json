@@ -1,0 +1,91 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "vwwaveplayer/block",
+	"version": "0.1.0",
+	"title": "VwWavePlayer",
+	"category": "media",
+	"description": "Add VwWavePlayer to your posts and pages.",
+	"keywords": [ "audio", "music", "sound", "podcast", "recording" ],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "vwwaveplayer",
+	"attributes": {
+		"ids": {
+			"type": "string"
+		},
+		"url": {
+			"type": "string"
+		},
+		"skin": {
+			"type": "string"
+		},
+		"palette": {
+			"type": "string"
+		},
+		"override_wave_colors": {
+			"type": "boolean"
+		},
+		"size": {
+			"type": "string"
+		},
+		"style": {
+			"type": "string"
+		},
+		"shape": {
+			"type": "string"
+		},
+		"mode": {
+			"type": "boolean"
+		},
+		"wave_mode": {
+			"type": "string"
+		},
+		"gap_width": {
+			"type": "string"
+		},
+		"cursor_width": {
+			"type": "string"
+		},
+		"wave_color": {
+			"type": "string"
+		},
+		"wave_color_2": {
+			"type": "string"
+		},
+		"progress_color": {
+			"type": "string"
+		},
+		"progress_color_2": {
+			"type": "string"
+		},
+		"cursor_color": {
+			"type": "string"
+		},
+		"cursor_color_2": {
+			"type": "string"
+		},
+		"wave_animation": {
+			"type": "number"
+		},
+		"amp_freq_ratio": {
+			"type": "number"
+		},
+		"wave_normalization": {
+			"type": "boolean"
+		},
+		"autoplay": {
+			"type": "boolean"
+		},
+		"repeat": {
+			"type": "boolean"
+		},
+		"shuffle": {
+			"type": "boolean"
+		},
+		"preload": {
+			"type": "string"
+		}
+	}
+}

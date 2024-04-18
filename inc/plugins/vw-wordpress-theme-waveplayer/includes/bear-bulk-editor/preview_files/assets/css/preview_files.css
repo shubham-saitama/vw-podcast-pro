@@ -1,0 +1,56 @@
+.preview_files_popup_editor_btn {
+    display: grid;
+    margin: auto;
+    max-width: 96px;
+    grid-template-columns: repeat( 3, 1fr );
+    grid-template-areas:
+        "thumbs"
+        "text";
+    text-align: right;
+}
+
+.preview_files_popup_editor_btn img {
+    width: 30px;
+    height: 30px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    display: inline-block;
+    object-fit: contain;
+}
+
+.preview_files_popup_editor_btn div {
+    display: inline;
+    grid-area: 2 / span 3;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+    text-align: center;
+}
+
+
+
+#products_preview_files_form{
+    overflow: hidden;
+}
+
+#products_preview_files_form .woobe_fields_tmp > li{
+    display: inline-block;
+    width: 150px;
+    min-height: 150px;
+    margin-right: 10px;
+    position: relative;
+    vertical-align: top;
+}
+
+#products_preview_files_form .woobe_fields_tmp > li img{
+    width: 100%;
+    object-fit: none;
+    aspect-ratio: 1;
+}
+
+#products_preview_files_form .woobe_fields_tmp > li .woobe_preview_file_delete{
+    position: absolute;
+    top: 0;
+    right: 0;
+}

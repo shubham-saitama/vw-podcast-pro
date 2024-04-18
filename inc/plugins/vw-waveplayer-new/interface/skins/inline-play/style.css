@@ -1,0 +1,119 @@
+/**
+*
+* CSS for the INLINE PLAY skin
+*
+*/
+/*
+    VARIABLES
+*/
+/*
+*
+*   STYLES
+*
+*/
+.vwwaveplayer-container:has(.vwwvpl-skin-inline-play) {
+  display: inline;
+}
+.vwwaveplayer-container:has(.vwwvpl-skin-inline-play) .vwwaveplayer:first-child {
+  margin-left: 0;
+}
+.vwwaveplayer-container:has(.vwwvpl-skin-inline-play) .vwwaveplayer:last-child {
+  margin-right: 0;
+}
+
+.vwwaveplayer.vwwvpl-skin-inline-play {
+  display: inline-block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  color: RGB(var(--foreground));
+  background-color: RGB(var(--background));
+  margin: 0 1ch;
+  width: calc(0.5 * var(--height));
+  height: calc(0.5 * var(--height));
+  vertical-align: middle;
+  /**
+  *
+  * Primary interface of the player
+  *
+  */
+}
+.vwwaveplayer.vwwvpl-skin-inline-play a.vwwvpl-link {
+  text-decoration: none !important;
+}
+.vwwaveplayer.vwwvpl-skin-inline-play.vwwvpl-shape-square {
+  border-radius: 3px;
+}
+.vwwaveplayer.vwwvpl-skin-inline-play.vwwvpl-shape-rounded {
+  border-radius: calc(0.1 * var(--height));
+}
+.vwwaveplayer.vwwvpl-skin-inline-play.vwwvpl-shape-circle {
+  border-radius: var(--height);
+}
+.vwwaveplayer.vwwvpl-skin-inline-play:hover {
+  color: RGB(var(--highlight));
+  background-color: RGB(var(--highlight-shade));
+}
+.vwwaveplayer.vwwvpl-skin-inline-play .vwwvpl-controls {
+  display: flex;
+  opacity: 1;
+  position: relative;
+  height: 100%;
+}
+.vwwaveplayer.vwwvpl-skin-inline-play .vwwvpl-controls.vwwvpl-inactive {
+  opacity: 0;
+}
+.vwwaveplayer.vwwvpl-skin-inline-play .vwwvpl-icon {
+  font-family: "Font Awesome 5 Free", FontAwesome;
+  font-weight: 900;
+  flex: 1;
+  cursor: pointer;
+}
+.vwwaveplayer.vwwvpl-skin-inline-play .vwwvpl-icon::before {
+  width: 1em;
+  text-align: center;
+}
+.vwwaveplayer.vwwvpl-skin-inline-play .vwwvpl-icon.vwwvpl-play {
+  line-height: normal;
+  text-align: center;
+}
+.vwwaveplayer.vwwvpl-skin-inline-play .vwwvpl-icon.vwwvpl-play::before {
+  font-size: 50cqi;
+  margin-top: -0.1em;
+  margin-left: 0.15em;
+}
+.playing.vwwaveplayer.vwwvpl-skin-inline-play .vwwvpl-icon.vwwvpl-play::before {
+  margin-left: 0;
+}
+
+.loading.vwwaveplayer.vwwvpl-skin-inline-play .vwwvpl-icon.vwwvpl-play::before {
+  margin: 0;
+}
+
+.vwwaveplayer.vwwvpl-skin-inline-play .vwwvpl-icon.vwwvpl-disabled {
+  cursor: default;
+  visibility: hidden;
+}
+.vwwaveplayer.vwwvpl-skin-inline-play .vwwvpl-controls .vwwvpl-icon::before {
+  display: inline-block;
+  text-align: center;
+}
+.vwwaveplayer.vwwvpl-skin-inline-play .vwwvpl-play::before {
+  content: "\f04b";
+}
+.vwwaveplayer.vwwvpl-skin-inline-play.playing .vwwvpl-play::before {
+  content: "\f04c";
+}
+.vwwaveplayer.vwwvpl-skin-inline-play.analyzing .vwwvpl-play, .vwwaveplayer.vwwvpl-skin-inline-play.loading .vwwvpl-play, .vwwaveplayer.vwwvpl-skin-inline-play.seeking .vwwvpl-play {
+  animation: vwwvpl-spin 1.5s infinite linear;
+}
+.vwwaveplayer.vwwvpl-skin-inline-play.analyzing .vwwvpl-play::before, .vwwaveplayer.vwwvpl-skin-inline-play.loading .vwwvpl-play::before, .vwwaveplayer.vwwvpl-skin-inline-play.seeking .vwwvpl-play::before {
+  content: "\f110";
+}
+.vwwaveplayer.vwwvpl-skin-inline-play .vwwvpl-button {
+  cursor: pointer;
+}
+.vwwaveplayer.vwwvpl-skin-inline-play .vwwvpl-icon.vwwvpl-button:hover::before {
+  opacity: 1;
+  transform: scale(1.25);
+}

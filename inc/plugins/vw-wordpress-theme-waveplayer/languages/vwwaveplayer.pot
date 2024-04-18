@@ -1,0 +1,1941 @@
+# Copyright (C) 2023 VW Waveplayer
+# This file is distributed under the same license as the VwWavePlayer plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: VwWavePlayer 3.6.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/vwwaveplayer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-10-24T23:26:09+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: vwwaveplayer\n"
+
+#. Plugin Name of the plugin
+#: includes/class-woocommerce-addon-support.php:120
+#: includes/elementor/class-elementor-widget.php:51
+msgid "VwWavePlayer"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid ""
+msgstr ""
+
+#. Description of the plugin
+msgid "VwWavePlayer is an audio player that uses the waveform of each track as its timeline."
+msgstr ""
+
+#. Author of the plugin
+msgid "VW Waveplayer"
+msgstr ""
+
+#. Author URI of the plugin
+msgid ""
+msgstr ""
+
+#: includes/admin-page.inc.php:13
+msgid "Player"
+msgstr ""
+
+#: includes/admin-page.inc.php:14
+msgid "Player Default Options"
+msgstr ""
+
+#: includes/admin-page.inc.php:15
+#: includes/admin-page.inc.php:211
+msgid "If one of the following parameters is not specified in a shortcode, the player is going to use the following default settings."
+msgstr ""
+
+#: includes/admin-page.inc.php:18
+#: includes/class-renderer.php:1391
+#: assets/block/index.js:1
+#: block/src/panels/player-panel-body.js:25
+msgid "Autoplay"
+msgstr ""
+
+#: includes/admin-page.inc.php:20
+msgid "If checked, the player will start playing back its playlist as soon as the page that contains it finishes loading up."
+msgstr ""
+
+#: includes/admin-page.inc.php:24
+msgid "Repeat all"
+msgstr ""
+
+#: includes/admin-page.inc.php:26
+msgid "If checked, the player will continuously play back its playlist. At the end of the last track, the player will restart from the first one."
+msgstr ""
+
+#: includes/admin-page.inc.php:30
+#: includes/class-renderer.php:1401
+#: assets/block/index.js:1
+#: block/src/panels/player-panel-body.js:36
+msgid "Shuffle"
+msgstr ""
+
+#: includes/admin-page.inc.php:32
+msgid "If checked, the tracks of each player will be shuffled in a random order every time the page containing the player loads."
+msgstr ""
+
+#: includes/admin-page.inc.php:36
+msgid "Audio override"
+msgstr ""
+
+#: includes/admin-page.inc.php:38
+msgid "If checked, every <code>[audio]</code> and <code>[playlist]</code> shortcode will be replaced with VwWavePlayer."
+msgstr ""
+
+#: includes/admin-page.inc.php:42
+msgid "Jump to the next player"
+msgstr ""
+
+#: includes/admin-page.inc.php:44
+msgid "If checked, upon completion of a playlist, the next player in the page will start."
+msgstr ""
+
+#: includes/admin-page.inc.php:48
+msgid "Use title in Media Library thumbnail"
+msgstr ""
+
+#: includes/admin-page.inc.php:50
+msgid "By default, WordPress uses file names to describe the thumbnail of an audio track in the Media Library. Setting this option, the thumbnail will display the title instead."
+msgstr ""
+
+#: includes/admin-page.inc.php:57
+#: includes/admin-page.inc.php:69
+#: includes/class-renderer.php:1374
+#: includes/elementor/class-elementor-widget.php:336
+msgid "Style"
+msgstr ""
+
+#: includes/admin-page.inc.php:58
+msgid "Styling Options"
+msgstr ""
+
+#: includes/admin-page.inc.php:59
+msgid "A VwWavePlayer instance will follow the default values. You can ovverride each option when adding a new instance to a post or page."
+msgstr ""
+
+#: includes/admin-page.inc.php:62
+#: includes/class-admin.php:1221
+#: includes/class-admin.php:1281
+#: includes/class-renderer.php:1346
+#: includes/elementor/class-elementor-widget.php:307
+#: assets/block/index.js:1
+#: block/src/panels/style-panel-body.js:25
+msgid "Skin"
+msgstr ""
+
+#: includes/admin-page.inc.php:64
+msgid "Select the skin for the default player instances."
+msgstr ""
+
+#: includes/admin-page.inc.php:71
+msgid "The style of the interface can be set to follow the <code>prefers-color-scheme</code> of the device or forced to <strong>light</strong> or <strong>dark</strong><br/>Modern browsers can now react to the the <strong>light</strong> or <strong>dark</strong> mode of the user device."
+msgstr ""
+
+#: includes/admin-page.inc.php:74
+#: includes/class-renderer.php:1376
+#: assets/block/index.js:1
+#: block/src/panels/style-panel-body.js:35
+msgid "Light"
+msgstr ""
+
+#: includes/admin-page.inc.php:78
+#: includes/class-renderer.php:1377
+#: assets/block/index.js:1
+#: block/src/panels/style-panel-body.js:36
+msgid "Dark"
+msgstr ""
+
+#: includes/admin-page.inc.php:82
+msgid "Use \"prefers-color-scheme\" setting"
+msgstr ""
+
+#: includes/admin-page.inc.php:88
+#: includes/class-admin.php:1231
+#: includes/class-admin.php:1291
+#: includes/class-renderer.php:1355
+msgid "Size"
+msgstr ""
+
+#: includes/admin-page.inc.php:90
+msgid "The player comes in four different sizes: large, medium, small and extra small, that correspond to heights of 200px, 160px, 120px and 80 px respectively."
+msgstr ""
+
+#: includes/admin-page.inc.php:93
+#: includes/class-admin.php:1236
+#: includes/class-admin.php:1296
+#: includes/class-renderer.php:1357
+#: includes/class-woocommerce-addon-support.php:138
+#: includes/elementor/class-elementor-widget.php:356
+msgid "Large"
+msgstr ""
+
+#: includes/admin-page.inc.php:97
+#: includes/class-admin.php:1237
+#: includes/class-admin.php:1297
+#: includes/class-renderer.php:1358
+#: includes/class-woocommerce-addon-support.php:139
+#: includes/elementor/class-elementor-widget.php:355
+msgid "Medium"
+msgstr ""
+
+#: includes/admin-page.inc.php:101
+#: includes/class-admin.php:1238
+#: includes/class-admin.php:1298
+#: includes/class-renderer.php:1359
+#: includes/class-woocommerce-addon-support.php:140
+#: includes/elementor/class-elementor-widget.php:354
+msgid "Small"
+msgstr ""
+
+#: includes/admin-page.inc.php:105
+#: includes/class-admin.php:1239
+#: includes/class-admin.php:1299
+#: includes/class-renderer.php:1360
+#: includes/elementor/class-elementor-widget.php:353
+msgid "Extra Small"
+msgstr ""
+
+#: includes/admin-page.inc.php:111
+#: includes/class-renderer.php:1365
+#: includes/elementor/class-elementor-widget.php:368
+#: assets/block/index.js:1
+#: block/src/panels/style-panel-body.js:80
+msgid "Shape"
+msgstr ""
+
+#: includes/admin-page.inc.php:113
+msgid "The thumbnail of the active track is displayed inside a container that can have three different shapes: square, circle and rounded."
+msgstr ""
+
+#: includes/admin-page.inc.php:116
+#: includes/class-renderer.php:1367
+#: includes/elementor/class-elementor-widget.php:371
+#: assets/block/index.js:1
+#: block/src/panels/style-panel-body.js:85
+msgid "Square"
+msgstr ""
+
+#: includes/admin-page.inc.php:120
+#: includes/class-renderer.php:1368
+#: includes/elementor/class-elementor-widget.php:372
+#: assets/block/index.js:1
+#: block/src/panels/style-panel-body.js:84
+msgid "Circle"
+msgstr ""
+
+#: includes/admin-page.inc.php:124
+#: includes/class-renderer.php:1369
+#: includes/elementor/class-elementor-widget.php:373
+#: assets/block/index.js:1
+#: block/src/panels/style-panel-body.js:86
+msgid "Rounded"
+msgstr ""
+
+#: includes/admin-page.inc.php:130
+msgid "Default font"
+msgstr ""
+
+#: includes/admin-page.inc.php:132
+msgid "Select the font for the default player instances. This is a list of the 50 most popular Google Fonts. By selecting <strong>'default'</strong>, VwWavePlayer will inherit the font of its container."
+msgstr ""
+
+#: includes/admin-page.inc.php:137
+msgid "Base font size"
+msgstr ""
+
+#: includes/admin-page.inc.php:139
+msgid "Select the base font size of the texts in the player."
+msgstr ""
+
+#: includes/admin-page.inc.php:142
+msgid "Sticky Player Position"
+msgstr ""
+
+#: includes/admin-page.inc.php:144
+msgid "Select whether the sticky player is going to be disabled or show at the top or bottom of the window."
+msgstr ""
+
+#: includes/admin-page.inc.php:147
+msgid "Disabled"
+msgstr ""
+
+#: includes/admin-page.inc.php:151
+msgid "Bottom"
+msgstr ""
+
+#: includes/admin-page.inc.php:155
+msgid "Top"
+msgstr ""
+
+#: includes/admin-page.inc.php:161
+msgid "Display Info"
+msgstr ""
+
+#: includes/admin-page.inc.php:163
+msgid "Select whether to display the info bar, the playlist or nothing."
+msgstr ""
+
+#: includes/admin-page.inc.php:166
+#: includes/class-renderer.php:1384
+msgid "None"
+msgstr ""
+
+#: includes/admin-page.inc.php:170
+#: includes/class-renderer.php:1385
+msgid "Info bar"
+msgstr ""
+
+#: includes/admin-page.inc.php:174
+msgid "Info bar and playlist"
+msgstr ""
+
+#: includes/admin-page.inc.php:180
+msgid "Full width playlist"
+msgstr ""
+
+#: includes/admin-page.inc.php:182
+msgid "If checked, the playlist will span across the full width of the player, instead of just under the waveform."
+msgstr ""
+
+#: includes/admin-page.inc.php:186
+msgid "Default thumbnail"
+msgstr ""
+
+#: includes/admin-page.inc.php:188
+msgid "Set the image to be displayed as a default thumbnail, whenever an audio track has no featured image associated."
+msgstr ""
+
+#: includes/admin-page.inc.php:192
+msgid "Default thumbnail size"
+msgstr ""
+
+#: includes/admin-page.inc.php:194
+msgid "For better results, we recommend to select square sizes."
+msgstr ""
+
+#: includes/admin-page.inc.php:202
+msgid "Palettes"
+msgstr ""
+
+#: includes/admin-page.inc.php:203
+#: includes/class-admin.php:789
+msgid "Player Palettes"
+msgstr ""
+
+#: includes/admin-page.inc.php:204
+#: includes/class-admin.php:791
+msgid "Here you can change the basic colors applying to every skin, such as text, border or background colors. You can also create your own palette to easily switch between different configurations."
+msgstr ""
+
+#: includes/admin-page.inc.php:209
+msgid "Waveform"
+msgstr ""
+
+#: includes/admin-page.inc.php:210
+msgid "Waveform Options and Colors"
+msgstr ""
+
+#: includes/admin-page.inc.php:216
+#: includes/class-admin.php:1092
+msgid "Placeholders"
+msgstr ""
+
+#: includes/admin-page.inc.php:217
+msgid "Placeholder Templates"
+msgstr ""
+
+#: includes/admin-page.inc.php:222
+#: includes/admin-page.inc.php:223
+msgid "Advanced"
+msgstr ""
+
+#: includes/admin-page.inc.php:224
+msgid "You can add your custom CSS rulesets and Javascript functions in the text area below"
+msgstr ""
+
+#: includes/admin-page.inc.php:227
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/admin-page.inc.php:234
+msgid "Custom Javascript"
+msgstr ""
+
+#: includes/admin-page.inc.php:244
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/admin-page.inc.php:245
+#: includes/class-admin.php:1185
+msgid "WooCommerce Options"
+msgstr ""
+
+#: includes/admin-page.inc.php:251
+#: includes/admin-page.inc.php:252
+#: includes/class-admin.php:1370
+msgid "Tools"
+msgstr ""
+
+#: includes/bear-bulk-editor/preview_files/preview_files.php:30
+msgid "Preview Files"
+msgstr ""
+
+#: includes/bear-bulk-editor/preview_files/preview_files.php:31
+msgid "Select the audio tracks for this product"
+msgstr ""
+
+#: includes/bear-bulk-editor/preview_files/views/field.php:42
+msgid "Preview file"
+msgid_plural "Preview files (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/bear-bulk-editor/preview_files/views/panel.php:12
+msgid "Add an audio preview file"
+msgstr ""
+
+#: includes/bear-bulk-editor/preview_files/views/panel.php:18
+msgid "Replace all preview files with the selected ones"
+msgstr ""
+
+#: includes/bear-bulk-editor/preview_files/views/panel.php:19
+msgid "Add the selected preview files to the existing ones"
+msgstr ""
+
+#: includes/bear-bulk-editor/preview_files/views/panel.php:20
+msgid "Remove the selected preview files from the products"
+msgstr ""
+
+#: includes/bear-bulk-editor/preview_files/views/panel.php:21
+msgid "Remove the selected preview files from the products and delete the corresponding audio files from the media library"
+msgstr ""
+
+#: includes/bear-bulk-editor/preview_files/views/panel.php:40
+#: includes/class-admin.php:199
+msgid "Cancel"
+msgstr ""
+
+#: includes/bear-bulk-editor/preview_files/views/panel.php:41
+msgid "Apply"
+msgstr ""
+
+#: includes/class-admin.php:124
+msgid "Text"
+msgstr ""
+
+#: includes/class-admin.php:125
+msgid "Textarea"
+msgstr ""
+
+#: includes/class-admin.php:126
+msgid "Checkbox"
+msgstr ""
+
+#: includes/class-admin.php:127
+msgid "Radio"
+msgstr ""
+
+#: includes/class-admin.php:128
+msgid "Select"
+msgstr ""
+
+#: includes/class-admin.php:129
+msgid "Time"
+msgstr ""
+
+#: includes/class-admin.php:130
+msgid "Date"
+msgstr ""
+
+#: includes/class-admin.php:131
+msgid "Number"
+msgstr ""
+
+#: includes/class-admin.php:146
+msgid "&lt;none&gt;"
+msgstr ""
+
+#: includes/class-admin.php:153
+msgid "Edit"
+msgstr ""
+
+#: includes/class-admin.php:156
+#: includes/class-woocommerce.php:411
+#: includes/class-woocommerce.php:422
+#: includes/class-woocommerce.php:438
+msgid "Delete"
+msgstr ""
+
+#: includes/class-admin.php:173
+msgid "label"
+msgstr ""
+
+#: includes/class-admin.php:177
+msgid "name"
+msgstr ""
+
+#: includes/class-admin.php:181
+msgid "type"
+msgstr ""
+
+#: includes/class-admin.php:189
+msgid "default"
+msgstr ""
+
+#: includes/class-admin.php:193
+msgid "options"
+msgstr ""
+
+#: includes/class-admin.php:198
+msgid "Update"
+msgstr ""
+
+#: includes/class-admin.php:205
+msgid "Add custom field"
+msgstr ""
+
+#: includes/class-admin.php:418
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin.php:734
+msgid "Register your VwWavePlayer purchase code to take advantage of automatic updates. "
+msgstr ""
+
+#: includes/class-admin.php:735
+msgid "Click here"
+msgstr ""
+
+#: includes/class-admin.php:797
+msgid "Default Palette"
+msgstr ""
+
+#: includes/class-admin.php:805
+msgid "Override wave colors"
+msgstr ""
+
+#: includes/class-admin.php:809
+msgid "Use the colors from the palette instead of the default wave colors"
+msgstr ""
+
+#: includes/class-admin.php:814
+msgid "1-Click Palette Generator"
+msgstr ""
+
+#: includes/class-admin.php:832
+msgid "Generate"
+msgstr ""
+
+#: includes/class-admin.php:833
+msgid "Save"
+msgstr ""
+
+#: includes/class-admin.php:838
+msgid "Force monochromatic color pairs"
+msgstr ""
+
+#: includes/class-admin.php:843
+msgid "Force a full monochromatic palette"
+msgstr ""
+
+#: includes/class-admin.php:848
+msgid "Exhibition Mode: the thumbnail of the current track is blurred out and used as the background of the player"
+msgstr ""
+
+#: includes/class-admin.php:855
+msgid "Examples"
+msgstr ""
+
+#: includes/class-admin.php:860
+msgid "Light Mode"
+msgstr ""
+
+#: includes/class-admin.php:897
+msgid "Dark Mode"
+msgstr ""
+
+#: includes/class-admin.php:912
+msgid "Waveform Options and Palette"
+msgstr ""
+
+#: includes/class-admin.php:914
+msgid "If one of the following parameters is not specified in a shortcode, these are going to be the default settings for the player."
+msgstr ""
+
+#: includes/class-admin.php:920
+msgid "Waveform preview"
+msgstr ""
+
+#: includes/class-admin.php:945
+msgid "Waveform options"
+msgstr ""
+
+#: includes/class-admin.php:950
+msgid "WAVE"
+msgstr ""
+
+#: includes/class-admin.php:961
+msgid "bar and gap size"
+msgstr ""
+
+#: includes/class-admin.php:962
+msgid "bar"
+msgstr ""
+
+#: includes/class-admin.php:963
+msgid "gap"
+msgstr ""
+
+#: includes/class-admin.php:966
+msgid "PROGRESS"
+msgstr ""
+
+#: includes/class-admin.php:977
+msgid "mouse hovering opacity"
+msgstr ""
+
+#: includes/class-admin.php:993
+msgid "CURSOR"
+msgstr ""
+
+#: includes/class-admin.php:1004
+msgid "Cursor Width"
+msgstr ""
+
+#: includes/class-admin.php:1006
+msgid "No cursor"
+msgstr ""
+
+#: includes/class-admin.php:1007
+#: includes/class-renderer.php:1456
+msgid "Thin (1px)"
+msgstr ""
+
+#: includes/class-admin.php:1008
+#: includes/class-renderer.php:1457
+msgid "Normal (2px)"
+msgstr ""
+
+#: includes/class-admin.php:1009
+#: includes/class-renderer.php:1458
+msgid "Thick (4px)"
+msgstr ""
+
+#: includes/class-admin.php:1017
+msgid "Animation options"
+msgstr ""
+
+#: includes/class-admin.php:1024
+#: includes/elementor/class-elementor-widget.php:539
+#: block/old/index.js:1051
+msgid "No animation"
+msgstr ""
+
+#: includes/class-admin.php:1025
+#: includes/elementor/class-elementor-widget.php:540
+#: block/old/index.js:1054
+msgid "Slow"
+msgstr ""
+
+#: includes/class-admin.php:1026
+#: includes/elementor/class-elementor-widget.php:541
+#: block/old/index.js:1057
+msgid "Smooth"
+msgstr ""
+
+#: includes/class-admin.php:1027
+#: includes/elementor/class-elementor-widget.php:542
+#: block/old/index.js:1060
+msgid "Normal"
+msgstr ""
+
+#: includes/class-admin.php:1028
+#: includes/elementor/class-elementor-widget.php:543
+#: block/old/index.js:1063
+msgid "Fast"
+msgstr ""
+
+#: includes/class-admin.php:1029
+#: includes/elementor/class-elementor-widget.php:544
+#: block/old/index.js:1066
+msgid "Hectic"
+msgstr ""
+
+#: includes/class-admin.php:1032
+msgid "animation with"
+msgstr ""
+
+#: includes/class-admin.php:1034
+#: includes/elementor/class-elementor-widget.php:556
+msgid "mostly amplitude"
+msgstr ""
+
+#: includes/class-admin.php:1035
+#: includes/elementor/class-elementor-widget.php:557
+msgid "more amplitude"
+msgstr ""
+
+#: includes/class-admin.php:1036
+#: includes/elementor/class-elementor-widget.php:558
+msgid "amplitude and frequency equally"
+msgstr ""
+
+#: includes/class-admin.php:1037
+#: includes/elementor/class-elementor-widget.php:559
+msgid "more frequency"
+msgstr ""
+
+#: includes/class-admin.php:1038
+#: includes/elementor/class-elementor-widget.php:560
+msgid "mostly frequency"
+msgstr ""
+
+#: includes/class-admin.php:1039
+msgid "only frequency"
+msgstr ""
+
+#: includes/class-admin.php:1041
+msgid " affecting the waveform"
+msgstr ""
+
+#: includes/class-admin.php:1049
+msgid "Geometry options"
+msgstr ""
+
+#: includes/class-admin.php:1054
+msgid "visual compression"
+msgstr ""
+
+#: includes/class-admin.php:1056
+#: includes/class-renderer.php:1499
+#: includes/elementor/class-elementor-widget.php:506
+#: block/old/index.js:1000
+msgid "None (linear)"
+msgstr ""
+
+#: includes/class-admin.php:1057
+#: includes/class-renderer.php:1500
+#: includes/elementor/class-elementor-widget.php:507
+#: block/old/index.js:1003
+msgid "Moderate (square)"
+msgstr ""
+
+#: includes/class-admin.php:1058
+#: includes/class-renderer.php:1501
+#: includes/elementor/class-elementor-widget.php:508
+#: block/old/index.js:1006
+msgid "High (cubic)"
+msgstr ""
+
+#: includes/class-admin.php:1059
+#: includes/class-renderer.php:1502
+#: includes/elementor/class-elementor-widget.php:509
+msgid "Very high (4th order)"
+msgstr ""
+
+#: includes/class-admin.php:1060
+#: includes/class-renderer.php:1503
+#: includes/elementor/class-elementor-widget.php:510
+#: block/old/index.js:1012
+msgid "Extreme (5th order)"
+msgstr ""
+
+#: includes/class-admin.php:1064
+msgid "visual normalization"
+msgstr ""
+
+#: includes/class-admin.php:1071
+msgid "asymmetry"
+msgstr ""
+
+#: includes/class-admin.php:1077
+#: includes/elementor/class-elementor-widget.php:526
+msgid "top only"
+msgstr ""
+
+#: includes/class-admin.php:1078
+#: includes/elementor/class-elementor-widget.php:527
+msgid "bottom only"
+msgstr ""
+
+#: includes/class-admin.php:1094
+msgid "Use the text areas below to customize the content of the information shown in the main player info bar, each row of the playlist and the sticky player."
+msgstr ""
+
+#: includes/class-admin.php:1099
+msgid "You can use HTML syntax. As a placeholder for a specific metadata, you can use any ID3 tag present in the audio file, delimited by the <code>%</code> character. Please bear in mind that the presence of every tag is not guaranteed for every single track you upload."
+msgstr ""
+
+#: includes/class-admin.php:1108
+msgid "Here is a list of the most common ID3 tags and metadata you can use:"
+msgstr ""
+
+#: includes/class-admin.php:1115
+msgid "In addition to the previous tags, you can use other special placeholders created by VwWavePlayer:"
+msgstr ""
+
+#: includes/class-admin.php:1116
+msgid "a like button and a counter of the total likes for a given track,"
+msgstr ""
+
+#: includes/class-admin.php:1117
+msgid "a download button and a counter of the total downloads for a given track,"
+msgstr ""
+
+#: includes/class-admin.php:1118
+msgid "a cart button (an active WooCommerce installation is required),"
+msgstr ""
+
+#: includes/class-admin.php:1119
+msgid "a counter of the total playbacks for a given track,"
+msgstr ""
+
+#: includes/class-admin.php:1120
+msgid "a counter of the total time a given track has been listened to,"
+msgstr ""
+
+#: includes/class-admin.php:1121
+msgid "a share button to select the social network where you want to share the track,"
+msgstr ""
+
+#: includes/class-admin.php:1122
+msgid "a list of terms of the Music Genre category associated with the track"
+msgstr ""
+
+#: includes/class-admin.php:1128
+msgid "Info bar template"
+msgstr ""
+
+#: includes/class-admin.php:1136
+msgid "Playlist row template"
+msgstr ""
+
+#: includes/class-admin.php:1144
+msgid "Sticky Player template"
+msgstr ""
+
+#: includes/class-admin.php:1155
+msgid "Audio Attachment custom fields"
+msgstr ""
+
+#: includes/class-admin.php:1157
+msgid "The audio attachment custom fields you add here will be available in the attachment editor and in the attachment modal dialog. Once you entered a custom field value for an attachment, you can display it as a placeholder using its name. For example, if you create a custom field called <code>my_custom_field</code>, you can use it in the player simply typing <code>%my_custom_field%</code> in any of the templates above."
+msgstr ""
+
+#: includes/class-admin.php:1160
+msgid "You can also customize the metadata attached to each track using the <code>vwwaveplayer_add_track_info</code> filter. <a href=\"#" target=\"_blank\"><strong>More info</strong></a> are available on the Official VwWavePlayer website."
+msgstr ""
+
+#: includes/class-admin.php:1186
+msgid "VwWavePlayer can add a player for each item in the Shop and Single Product pages automatically, using the preview files attached to each product."
+msgstr ""
+
+#: includes/class-admin.php:1191
+msgid "Product thumbnail"
+msgstr ""
+
+#: includes/class-admin.php:1194
+msgid "Use the featured image of the audio track as the product image"
+msgstr ""
+
+#: includes/class-admin.php:1199
+msgid "Shop Page Options"
+msgstr ""
+
+#: includes/class-admin.php:1204
+#: includes/class-admin.php:1262
+msgid "Position"
+msgstr ""
+
+#: includes/class-admin.php:1208
+#: includes/class-admin.php:1266
+msgid "Disable"
+msgstr ""
+
+#: includes/class-admin.php:1209
+msgid "Before the item"
+msgstr ""
+
+#: includes/class-admin.php:1210
+#: includes/class-admin.php:1267
+msgid "Before the title"
+msgstr ""
+
+#: includes/class-admin.php:1211
+#: includes/class-admin.php:1268
+msgid "After the title"
+msgstr ""
+
+#: includes/class-admin.php:1212
+msgid "Before the price"
+msgstr ""
+
+#: includes/class-admin.php:1213
+msgid "Before the add-to-cart button"
+msgstr ""
+
+#: includes/class-admin.php:1214
+msgid "After the item"
+msgstr ""
+
+#: includes/class-admin.php:1215
+msgid "Replace the thumbnail"
+msgstr ""
+
+#: includes/class-admin.php:1235
+#: includes/class-admin.php:1295
+msgid "Default"
+msgstr ""
+
+#: includes/class-admin.php:1245
+#: includes/class-admin.php:1305
+msgid "Info"
+msgstr ""
+
+#: includes/class-admin.php:1249
+#: includes/class-admin.php:1309
+msgid "nothing"
+msgstr ""
+
+#: includes/class-admin.php:1250
+#: includes/class-admin.php:1310
+msgid "the info bar only"
+msgstr ""
+
+#: includes/class-admin.php:1251
+#: includes/class-admin.php:1311
+msgid "both the info bar and the playlist"
+msgstr ""
+
+#: includes/class-admin.php:1257
+msgid "Single Product Page Options"
+msgstr ""
+
+#: includes/class-admin.php:1269
+msgid "Before the rating"
+msgstr ""
+
+#: includes/class-admin.php:1270
+msgid "After the price"
+msgstr ""
+
+#: includes/class-admin.php:1271
+msgid "Before the short description"
+msgstr ""
+
+#: includes/class-admin.php:1272
+msgid "After the short description"
+msgstr ""
+
+#: includes/class-admin.php:1273
+msgid "Before the metadata"
+msgstr ""
+
+#: includes/class-admin.php:1274
+msgid "After the metadata"
+msgstr ""
+
+#: includes/class-admin.php:1275
+msgid "After the summary"
+msgstr ""
+
+#: includes/class-admin.php:1318
+msgid "Product Batch Creation"
+msgstr ""
+
+#: includes/class-admin.php:1322
+msgid ""
+"The following batch creation process eases the creation of WooCommerce simple or variable products for each audio attachment found in your Media Library.<br>\n"
+"\t\t\t\t\t\t\t\t\t\tThe batch creation saves a draft product per each item. The default product is simple, virtual and downloadable.<br>\n"
+"\t\t\t\t\t\t\t\t\t\tWavePlayer automatically associates to each product the corresponding audio track, as a preview files.<br>\n"
+"\t\t\t\t\t\t\t\t\t\tAfter the creation of all the product drafts, you can review and publish all the products, adding the downloadable files you want to associate to each product.<br>"
+msgstr ""
+
+#: includes/class-admin.php:1336
+msgid "Simple"
+msgstr ""
+
+#: includes/class-admin.php:1337
+msgid "Variable"
+msgstr ""
+
+#: includes/class-admin.php:1339
+msgid "Price"
+msgstr ""
+
+#: includes/class-admin.php:1357
+msgid "Select all"
+msgstr ""
+
+#: includes/class-admin.php:1357
+msgid "Deselect all"
+msgstr ""
+
+#: includes/class-admin.php:1359
+msgid "Create product drafts for each selected track"
+msgstr ""
+
+#: includes/class-admin.php:1375
+msgid "License Registration"
+msgstr ""
+
+#: includes/class-admin.php:1377
+msgid "Please register your license to take advantage of free perpetual updates."
+msgstr ""
+
+#: includes/class-admin.php:1383
+msgid "Register license"
+msgstr ""
+
+#: includes/class-admin.php:1388
+msgid "Register"
+msgstr ""
+
+#: includes/class-admin.php:1389
+msgid "Unregister"
+msgstr ""
+
+#: includes/class-admin.php:1394
+msgid "By registering your purchase code, you will associate it with the current website."
+msgstr ""
+
+#: includes/class-admin.php:1395
+msgid "You can get your purchase code from "
+msgstr ""
+
+#: includes/class-admin.php:1395
+#: includes/class-admin.php:1399
+msgid "your CodeCanyon account"
+msgstr ""
+
+#: includes/class-admin.php:1398
+msgid "By unregistering your purchase code, you will free up this license and be able to use it on a different website."
+msgstr ""
+
+#: includes/class-admin.php:1409
+msgid "Uninstalling VwWavePlayer"
+msgstr ""
+
+#: includes/class-admin.php:1413
+msgid ""
+"By default, VwWavePlayer does not delete its settings when uninstalling. This will help you keep all your customization when installing a new version of the plugin, that implies you uninstall the previous version first.<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tIf you want to permanently delete VwWavePlayer, set the <strong>Delete Settings</strong> checkbox before uninstalling and VwWavePlayer will delete all its settings during installation.<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tAll peaks and info files stored in the <strong>/peaks</strong> subfolder will be deleted as well, completely cleaning your WordPress setup from any traces from VwWavePlayer."
+msgstr ""
+
+#: includes/class-admin.php:1427
+msgid "Delete settings"
+msgstr ""
+
+#: includes/class-admin.php:1431
+msgid "Set this option, if you want to delete all VwWavePlayer settings when uninstalling the plugin."
+msgstr ""
+
+#: includes/class-admin.php:1450
+msgid "Cache"
+msgstr ""
+
+#: includes/class-admin.php:1454
+msgid "VwWavePlayer uses transients to store the data of each instance on your website so that its rendering can be <strong>10 times faster</strong> than non-cached instances."
+msgstr ""
+
+#: includes/class-admin.php:1466
+msgid "Clear the cache"
+msgstr ""
+
+#: includes/class-admin.php:1469
+msgid "Clear cache now"
+msgstr ""
+
+#: includes/class-admin.php:1479
+msgid "Peak and info files"
+msgstr ""
+
+#: includes/class-admin.php:1483
+msgid ""
+"A peak file is saved by VwWavePlayer in the '<strong>peaks</strong>' subfolder of the WordPress upload folder, whenever an audio track is loaded for the first time.<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tThis allows VwWavePlayer to render the waveform of each audio file much faster the following times."
+msgstr ""
+
+#: includes/class-admin.php:1494
+msgid ""
+"Additionally, every time VwWavePlayer uses an external audio file for the first time, a small text file containing all the information about the external track gets saved in the same folder, together with an image of the cover art, if present in the audio file.\n"
+"\t\t\t\t\t\t\t\t\t\tThese files are very small in size but help VwWavePlayer speed up the loading process of external audio files enormously, while offering you the possibility to playback audio files that are not stored in your own web server."
+msgstr ""
+
+#: includes/class-admin.php:1505
+msgid "Regenerate peak files:<br>(internal only)"
+msgstr ""
+
+#: includes/class-admin.php:1508
+msgid "Regenerate peak files"
+msgstr ""
+
+#: includes/class-admin.php:1511
+msgid "Overwrite the peak files that are already stored in the peak folder."
+msgstr ""
+
+#: includes/class-admin.php:1520
+msgid "Delete orphan peak files:<br>(internal only)"
+msgstr ""
+
+#: includes/class-admin.php:1523
+msgid "Delete orphan peak files"
+msgstr ""
+
+#: includes/class-admin.php:1527
+msgid ""
+"If you delete an audio track that was previously used in VwWavePlayer, the peak file remains unused forever in the peak subfolder of the plugin.<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tAlthough peak files are very small in size (usually around 30 kB), it can be a waste of your hosting space if you happen to upload and delete audio attachments regularly.<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tIt is recommended to delete orphan peak files every time you delete a massive amount of audio attachments from your website."
+msgstr ""
+
+#: includes/class-admin.php:1541
+msgid "Delete all peak files:<br>(internal only)"
+msgstr ""
+
+#: includes/class-admin.php:1544
+msgid "Delete all peak files"
+msgstr ""
+
+#: includes/class-admin.php:1546
+msgid "If you want to make sure VwWavePlayer regenerates all the peak files, you have to delete all of them using this button."
+msgstr ""
+
+#: includes/class-admin.php:1549
+#: includes/class-admin.php:1563
+msgid "<strong>NOTE</strong>: This operation will not delete any audio file you uploaded in the Media Library."
+msgstr ""
+
+#: includes/class-admin.php:1555
+msgid "Delete all peak & info files:<br>(both internal and external)"
+msgstr ""
+
+#: includes/class-admin.php:1558
+msgid "Delete all peak and info files"
+msgstr ""
+
+#: includes/class-admin.php:1560
+msgid "If you want to make sure VwWavePlayer regenerates all the peak files for both internal and external audio files, you have to delete all of them using this button."
+msgstr ""
+
+#: includes/class-admin.php:1594
+msgid "Extra tools"
+msgstr ""
+
+#: includes/class-admin.php:1596
+msgid "A set of extra tools added by third-party plugins"
+msgstr ""
+
+#: includes/class-admin.php:1627
+msgid "Development"
+msgstr ""
+
+#: includes/class-admin.php:1629
+msgid "If you are willing to stay up to date with the development of the new features without waiting for a stable relief, you can enroll in the beta program"
+msgstr ""
+
+#: includes/class-admin.php:1635
+msgid "Receive beta updates"
+msgstr ""
+
+#: includes/class-admin.php:1639
+msgid "By participating in the beta program, you will receive updates to versions that are still in development."
+msgstr ""
+
+#: includes/class-admin.php:1641
+msgid "<strong>WARNING!!!</strong> We strongly recommend you enroll to the beta program exclusively on a staging website and only if you are expert and able to troubleshoot any issue that the use of a beta version may cause."
+msgstr ""
+
+#: includes/class-admin.php:1642
+msgid "We highly discouraged you from updating to a beta version on a production website is highly."
+msgstr ""
+
+#: includes/class-admin.php:1643
+msgid "While we do appreciate you taking the time to report any issue you encounter when using a beta version – which is the very reason we make this option available in the first place –, we won't provide any assistance or support whatsoever in troubleshooting and fixing any problem arising from the use of a beta version."
+msgstr ""
+
+#: includes/class-ajax.php:480
+#: includes/class-ajax.php:574
+#: includes/class-ajax.php:623
+#: includes/class-ajax.php:653
+#: includes/class-ajax.php:848
+#: includes/class-ajax.php:957
+#: includes/class-ajax.php:975
+#: includes/class-ajax.php:1005
+#: includes/class-ajax.php:1060
+#: includes/class-ajax.php:1112
+#: includes/class-ajax.php:1137
+#: includes/class-ajax.php:1185
+#: includes/class-ajax.php:1214
+#: includes/class-ajax.php:1261
+#: includes/class-ajax.php:1326
+#: includes/class-ajax.php:1378
+#: includes/class-ajax.php:1472
+#: includes/class-renderer.php:1609
+#: includes/class-renderer.php:1696
+msgid "The request is not valid"
+msgstr ""
+
+#. translators: %s is the number of files that were deleted.
+#: includes/class-ajax.php:535
+msgid "%s file was successfully deleted."
+msgid_plural "%s files were successfully deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-ajax.php:540
+msgid "No files needed to be deleted."
+msgstr ""
+
+#: includes/class-ajax.php:636
+msgid "The cache was cleared successfully: %d transients were deleted."
+msgstr ""
+
+#: includes/class-ajax.php:875
+msgid "The file could not be found. Please make sure the file exists on this server."
+msgstr ""
+
+#: includes/class-ajax.php:881
+msgid "An error occurred while trying to retrieve the audio metadata of the file"
+msgstr ""
+
+#: includes/class-ajax.php:913
+msgid "An error occurred while trying to copy the file"
+msgstr ""
+
+#: includes/class-ajax.php:961
+msgid "The post id was not defined"
+msgstr ""
+
+#: includes/class-ajax.php:1011
+msgid "The attachment ID is not valid"
+msgstr ""
+
+#: includes/class-ajax.php:1071
+msgid "Visitors cannot like tracks"
+msgstr ""
+
+#: includes/class-ajax.php:1203
+msgid "An error occurred while retrieving the audio attachments."
+msgstr ""
+
+#: includes/class-ajax.php:1218
+msgid "New Palette"
+msgstr ""
+
+#: includes/class-ajax.php:1266
+#: includes/class-ajax.php:1331
+#: assets/js/admin-scripts.js:204
+msgid "The purchase code cannot be empty"
+msgstr ""
+
+#. translators: %s: error message.
+#: includes/class-ajax.php:1298
+msgid "An error occurred while registering the purchase code.<br/>%s</br>Please try again at a later time."
+msgstr ""
+
+#: includes/class-ajax.php:1423
+msgid "New Album"
+msgstr ""
+
+#: includes/class-renderer.php:512
+msgid "VwWavePlayer could not find the selected skin. Please check your settings or reinstall the plugin."
+msgstr ""
+
+#: includes/class-renderer.php:1312
+msgid "Create a new VwWavePlayer"
+msgstr ""
+
+#: includes/class-renderer.php:1313
+msgid "Drag and drop to reorder tracks."
+msgstr ""
+
+#: includes/class-renderer.php:1314
+msgid "Create VwWavePlayer"
+msgstr ""
+
+#: includes/class-renderer.php:1315
+msgid "Edit VwWavePlayer"
+msgstr ""
+
+#: includes/class-renderer.php:1316
+msgid "&#8592; Cancel VwWavePlayer"
+msgstr ""
+
+#: includes/class-renderer.php:1317
+msgid "Insert VwWavePlayer"
+msgstr ""
+
+#: includes/class-renderer.php:1318
+msgid "Update VwWavePlayer"
+msgstr ""
+
+#: includes/class-renderer.php:1319
+#: includes/class-renderer.php:1320
+msgid "Add to VwWavePlayer"
+msgstr ""
+
+#: includes/class-renderer.php:1321
+msgid "Create VwWavePlayer from URL"
+msgstr ""
+
+#: includes/class-renderer.php:1322
+msgid "Edit VwWavePlayer URL"
+msgstr ""
+
+#: includes/class-renderer.php:1323
+msgid "Add from URL"
+msgstr ""
+
+#: includes/class-renderer.php:1343
+msgid "VwWavePlayer Settings"
+msgstr ""
+
+#: includes/class-renderer.php:1382
+msgid "Info display"
+msgstr ""
+
+#: includes/class-renderer.php:1386
+msgid "Info bar and Playlist"
+msgstr ""
+
+#: includes/class-renderer.php:1396
+msgid "Repeat All"
+msgstr ""
+
+#: includes/class-renderer.php:1406
+msgid "Wave Color"
+msgstr ""
+
+#: includes/class-renderer.php:1411
+msgid "Wave Color 2"
+msgstr ""
+
+#: includes/class-renderer.php:1416
+msgid "Prog. Color"
+msgstr ""
+
+#: includes/class-renderer.php:1421
+msgid "Prog. Color 2"
+msgstr ""
+
+#: includes/class-renderer.php:1426
+msgid "Hover opacity"
+msgstr ""
+
+#: includes/class-renderer.php:1443
+msgid "Cursor color"
+msgstr ""
+
+#: includes/class-renderer.php:1448
+msgid "Cursor color 2"
+msgstr ""
+
+#: includes/class-renderer.php:1453
+#: includes/elementor/class-elementor-widget.php:443
+msgid "Cursor width"
+msgstr ""
+
+#: includes/class-renderer.php:1455
+msgid "Invisible"
+msgstr ""
+
+#: includes/class-renderer.php:1463
+msgid "Wave mode"
+msgstr ""
+
+#: includes/class-renderer.php:1465
+msgid "Continuous"
+msgstr ""
+
+#: includes/class-renderer.php:1466
+msgid "Bars (1px)"
+msgstr ""
+
+#: includes/class-renderer.php:1467
+msgid "Bars (2px)"
+msgstr ""
+
+#: includes/class-renderer.php:1468
+msgid "Bars (3px)"
+msgstr ""
+
+#: includes/class-renderer.php:1469
+msgid "Bars (4px)"
+msgstr ""
+
+#: includes/class-renderer.php:1470
+msgid "Bars (5px)"
+msgstr ""
+
+#: includes/class-renderer.php:1471
+msgid "Bars (6px)"
+msgstr ""
+
+#: includes/class-renderer.php:1472
+msgid "Bars (7px)"
+msgstr ""
+
+#: includes/class-renderer.php:1473
+msgid "Bars (8px)"
+msgstr ""
+
+#: includes/class-renderer.php:1474
+msgid "Bars (9px)"
+msgstr ""
+
+#: includes/class-renderer.php:1475
+msgid "Bars (10px)"
+msgstr ""
+
+#: includes/class-renderer.php:1480
+#: includes/elementor/class-elementor-widget.php:476
+msgid "Gap width"
+msgstr ""
+
+#: includes/class-renderer.php:1497
+msgid "Wave comp."
+msgstr ""
+
+#: includes/class-renderer.php:1508
+msgid "Wave asym."
+msgstr ""
+
+#: includes/class-renderer.php:1549
+msgid "Remove"
+msgstr ""
+
+#: includes/class-renderer.php:1553
+msgid "Deselect"
+msgstr ""
+
+#: includes/class-renderer.php:1560
+msgid "Caption this image&hellip;"
+msgstr ""
+
+#: includes/class-renderer.php:1564
+msgid "Describe this video&hellip;"
+msgstr ""
+
+#: includes/class-renderer.php:1566
+msgid "Describe this audio file&hellip;"
+msgstr ""
+
+#: includes/class-renderer.php:1568
+msgid "Describe this media file&hellip;"
+msgstr ""
+
+#: includes/class-renderer.php:1652
+#: includes/class-renderer.php:1739
+msgid "No items found."
+msgstr ""
+
+#: includes/class-soundcloud.php:202
+msgid "Soundcloud returned a generic error."
+msgstr ""
+
+#. translators: 1: the opening tag of an anchor element, 2: the closing tag of an anchor element.
+#: includes/class-updater.php:495
+msgid "To enable auto-updates, please %1$sregister your purchase code%2$s."
+msgstr ""
+
+#: includes/class-woocommerce-addon-support.php:123
+msgid "Once a preview files is added to each product, VwWavePlayer can automatically render a player for each row of the table by simply adding a `vwwaveplayer` column to the table columns definition."
+msgstr ""
+
+#: includes/class-woocommerce-addon-support.php:126
+msgid "Default skin"
+msgstr ""
+
+#: includes/class-woocommerce-addon-support.php:130
+#: includes/class-woocommerce-addon-support.php:143
+msgid "The skin used for the VwWavePlayer instance."
+msgstr ""
+
+#: includes/class-woocommerce-addon-support.php:134
+msgid "Default size"
+msgstr ""
+
+#: includes/class-woocommerce-addon-support.php:141
+msgid "Extra small"
+msgstr ""
+
+#: includes/class-woocommerce.php:381
+msgid "Music type"
+msgstr ""
+
+#: includes/class-woocommerce.php:386
+msgid "Choose a music type"
+msgstr ""
+
+#: includes/class-woocommerce.php:389
+#: includes/class-woocommerce.php:1535
+msgid "Preview files"
+msgstr ""
+
+#: includes/class-woocommerce.php:394
+msgid "Name "
+msgstr ""
+
+#: includes/class-woocommerce.php:395
+msgid "File URL "
+msgstr ""
+
+#: includes/class-woocommerce.php:408
+#: includes/class-woocommerce.php:419
+msgid "File Name"
+msgstr ""
+
+#: includes/class-woocommerce.php:409
+#: includes/class-woocommerce.php:420
+msgid "http://"
+msgstr ""
+
+#: includes/class-woocommerce.php:410
+#: includes/class-woocommerce.php:421
+msgid "Choose file"
+msgstr ""
+
+#: includes/class-woocommerce.php:410
+#: includes/class-woocommerce.php:421
+msgid "Insert file URL"
+msgstr ""
+
+#: includes/class-woocommerce.php:437
+msgid "Choose File"
+msgstr ""
+
+#: includes/class-woocommerce.php:437
+msgid "Insert File URL"
+msgstr ""
+
+#: includes/class-woocommerce.php:439
+msgid "Add File"
+msgstr ""
+
+#. translators: %s is the list of files.
+#: includes/class-woocommerce.php:471
+msgid "The following preview file was not found: %s"
+msgid_plural "The following preview files were not found: %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-woocommerce.php:1002
+msgid "The product was not added to the cart"
+msgstr ""
+
+#. translators: %s is the number of tracks found.
+#: includes/class-woocommerce.php:1121
+msgid "%s track"
+msgid_plural "%s tracks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: Preview file index
+#: includes/class-woocommerce.php:1438
+#: includes/class-woocommerce.php:1555
+msgid "Preview file %d ID"
+msgstr ""
+
+#. translators: %d: Preview file index
+#: includes/class-woocommerce.php:1440
+#: includes/class-woocommerce.php:1557
+msgid "Preview file %d name"
+msgstr ""
+
+#. translators: %d: Preview file index
+#: includes/class-woocommerce.php:1442
+#: includes/class-woocommerce.php:1559
+msgid "Preview file %d URL"
+msgstr ""
+
+#: includes/class-woocommerce.php:1537
+msgid "Preview file ID"
+msgstr ""
+
+#: includes/class-woocommerce.php:1538
+msgid "Preview file name"
+msgstr ""
+
+#: includes/class-woocommerce.php:1539
+msgid "Preview file URL"
+msgstr ""
+
+#: includes/elementor/class-elementor-playlist-control.php:74
+msgid "Add Tracks"
+msgstr ""
+
+#. translators: %s represents the number of selected tracks.
+#: includes/elementor/class-elementor-support.php:91
+msgid "%s Tracks Selected"
+msgstr ""
+
+#: includes/elementor/class-elementor-support.php:92
+msgid "No Tracks Selected"
+msgstr ""
+
+#: includes/elementor/class-elementor-support.php:93
+msgid "Reset VwWavePlayer Playlist"
+msgstr ""
+
+#: includes/elementor/class-elementor-support.php:94
+msgid "Are you sure you want to reset the playlist for this instance?"
+msgstr ""
+
+#: includes/elementor/class-elementor-support.php:95
+msgid "Insert Tracks"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:138
+msgid "Player Options"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:146
+msgid "Audio file location"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:151
+msgid "Internal (Media library)"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:155
+msgid "External"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:159
+#: includes/elementor/class-elementor-widget.php:208
+msgid "WooCommerce Preview File"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:170
+msgid "Audio files from the Media Library"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:182
+msgid "URL"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:192
+msgid "External audio files"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:198
+msgid "URL #1"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:210
+msgid "This mode is meant to be used with WooCommerce template builders for instances that are inside a WooCoommerce loop. The player will automatically include all the tracks listed as preview files for the current product in the WooCommerce loop."
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:218
+msgid "Use separate single-track instances"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:223
+msgid "When this option is active, a separate player instance will be displayed for each preview file associated with the product."
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:241
+msgid "Visual Aspect"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:317
+msgid "Palette"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:326
+#: block/old/index.js:882
+msgid "Palette overrides default waveform colors"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:350
+msgid "Sizing"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:396
+#: block/old/index.js:1096
+msgid "Waveform Colors"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:435
+msgid "Waveform Options"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:457
+msgid "Bar width"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:495
+#: block/old/index.js:987
+msgid "Visual Normalization"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:503
+#: block/old/index.js:991
+msgid "Visual Compression"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:519
+msgid "Asymmetry"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:522
+#: block/old/index.js:1024
+msgid "1/2 + 1/2"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:523
+#: block/old/index.js:1027
+msgid "2/3 + 1/3"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:524
+#: block/old/index.js:1030
+msgid "3/4 + 1/4"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:525
+#: block/old/index.js:1033
+msgid "4/5 + 1/5"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:536
+#: includes/elementor/class-elementor-widget.php:553
+msgid "Animation speed"
+msgstr ""
+
+#: includes/elementor/class-elementor-widget.php:561
+msgid "frequency only"
+msgstr ""
+
+#: interface/placeholders/cart.php:17
+#: assets/js/vwwaveplayer.js:2456
+#: assets/js/vwwaveplayer.js:2499
+#: assets/js/vwwaveplayer.js:3136
+msgid "Already in cart: go to cart"
+msgstr ""
+
+#: interface/placeholders/cart.php:18
+#: assets/js/vwwaveplayer.js:3151
+msgid "Add to cart"
+msgstr ""
+
+#: interface/placeholders/length_formatted.php:17
+msgid "Track length: %s"
+msgstr ""
+
+#: interface/placeholders/likes.php:17
+msgid "Only logged in users can like tracks"
+msgstr ""
+
+#: interface/placeholders/likes.php:18
+msgid "Liked by %s users"
+msgstr ""
+
+#: assets/block/index.js:1
+#: block/src/panels/player-panel-body.js:23
+msgid "Player Settings"
+msgstr ""
+
+#: assets/block/index.js:1
+#: block/src/panels/player-panel-body.js:31
+msgid "Repeat"
+msgstr ""
+
+#: assets/block/index.js:1
+#: block/src/panels/player-panel-body.js:45
+msgid "Browser default"
+msgstr ""
+
+#: assets/block/index.js:1
+#: block/src/panels/player-panel-body.js:46
+msgid "Auto"
+msgstr ""
+
+#: assets/block/index.js:1
+#: block/src/panels/player-panel-body.js:47
+msgid "Metadata"
+msgstr ""
+
+#: assets/block/index.js:1
+#: block/src/panels/player-panel-body.js:50
+msgctxt "Preload value"
+msgid "None"
+msgstr ""
+
+#: assets/block/index.js:1
+#: block/src/panels/style-panel-body.js:23
+msgid "Style Settings"
+msgstr ""
+
+#: assets/block/index.js:1
+#: block/src/panels/style-panel-body.js:31
+msgid "Color scheme"
+msgstr ""
+
+#: assets/block/index.js:1
+#: block/src/panels/style-panel-body.js:37
+msgid "Follow device setting"
+msgstr ""
+
+#: assets/block/index.js:1
+#: block/src/panels/style-panel-body.js:92
+msgid "Stacked mode"
+msgstr ""
+
+#. translators: %s is the number of files
+#: assets/js/admin-scripts.js:608
+msgid "<strong>%s</strong> ready for peak generation"
+msgstr ""
+
+#: assets/js/admin-scripts.js:962
+msgid "The field name must be a valid identifier."
+msgstr ""
+
+#: assets/js/admin-scripts.js:972
+msgid "Field names must be unique. A field with this name is already present."
+msgstr ""
+
+#: assets/js/admin-scripts.js:986
+msgid "The selected type of field must have at least two options. Please type two or more options, separated by commas."
+msgstr ""
+
+#: assets/js/vwwaveplayer.js:2103
+msgid "creating a local copy of the file&hellip;"
+msgstr ""
+
+#: assets/js/vwwaveplayer.js:2106
+msgid "saving the peak file&hellip;"
+msgstr ""
+
+#: assets/js/vwwaveplayer.js:2109
+msgid "audio analysis in progress&hellip;"
+msgstr ""
+
+#: block/old/index.js:1009
+msgid "Very high (4th Order)"
+msgstr ""
+
+#: block/old/index.js:1015
+msgid "Visual Asymmetry"
+msgstr ""
+
+#: block/old/index.js:1036
+msgid "Top Only"
+msgstr ""
+
+#: block/old/index.js:1039
+msgid "Bottom Only"
+msgstr ""
+
+#: block/old/index.js:1042
+msgid "Wave Animation"
+msgstr ""
+
+#: block/old/index.js:1069
+msgid "Amp/Freq Balance"
+msgstr ""
+
+#: block/old/index.js:1078
+msgid "Mostly amplitude"
+msgstr ""
+
+#: block/old/index.js:1081
+msgid "More amplitude"
+msgstr ""
+
+#: block/old/index.js:1084
+msgid "Equally"
+msgstr ""
+
+#: block/old/index.js:1087
+msgid "More Frequency"
+msgstr ""
+
+#: block/old/index.js:1090
+msgid "Mostly Frequency"
+msgstr ""
+
+#: block/old/index.js:1093
+msgid "Frequency only"
+msgstr ""
+
+#: block/old/index.js:1105
+msgid "Waveform Color 1"
+msgstr ""
+
+#: block/old/index.js:1113
+msgid "Waveform Color 2"
+msgstr ""
+
+#: block/old/index.js:1116
+msgid "Progress Colors"
+msgstr ""
+
+#: block/old/index.js:1125
+msgid "Progress Color 1"
+msgstr ""
+
+#: block/old/index.js:1133
+msgid "Progress Color 2"
+msgstr ""
+
+#: block/old/index.js:1136
+msgid "Cursor Colors"
+msgstr ""
+
+#: block/old/index.js:1145
+msgid "Cursor Color 1"
+msgstr ""
+
+#: block/old/index.js:1153
+msgid "Cursor Color 2"
+msgstr ""
+
+#: assets/block/block.json
+#: block/block.json
+msgctxt "block title"
+msgid "VwWavePlayer"
+msgstr ""
+
+#: assets/block/block.json
+#: block/block.json
+msgctxt "block description"
+msgid "Add VwWavePlayer to your posts and pages."
+msgstr ""
+
+#: assets/block/block.json
+#: block/block.json
+msgctxt "block keyword"
+msgid "audio"
+msgstr ""
+
+#: assets/block/block.json
+#: block/block.json
+msgctxt "block keyword"
+msgid "music"
+msgstr ""
+
+#: assets/block/block.json
+#: block/block.json
+msgctxt "block keyword"
+msgid "sound"
+msgstr ""
+
+#: assets/block/block.json
+#: block/block.json
+msgctxt "block keyword"
+msgid "podcast"
+msgstr ""
+
+#: assets/block/block.json
+#: block/block.json
+msgctxt "block keyword"
+msgid "recording"
+msgstr ""

@@ -1,0 +1,387 @@
+.vw-podcast-pro-ive-slider .carousel-content {
+    width: 46% !important;
+    margin: auto !important;
+}
+
+.vw-podcast-pro-ive-slider .owl-nav .owl-prev {
+    margin-left: 74px !important;
+}
+
+.vw-podcast-pro-ive-slider .owl-nav .owl-next {
+    margin-right: 74px !important;
+}
+
+.vw-podcast-pro-ive-our-record-group {
+    border: solid 1px #ffffff;
+}
+
+.vw-podcast-pro-ive-our-author {
+    border-bottom: solid 1px #e4e4e4;
+}
+
+.vw-podcast-pro-ive-our-author-nav .owl-nav {
+    display: block !important;
+}
+
+.vw-podcast-pro-ive-our-author-nav .owl-nav .owl-next {
+    position: relative !important;
+    bottom: 100px;
+}
+
+.vw-podcast-pro-ive-our-author-nav .owl-prev {
+    position: relative !important;
+    bottom: 100px;
+    margin-left: 90% !important;
+}
+
+.vw-podcast-pro-ive-our-product-nav .owl-nav .owl-next {
+    position: relative !important;
+    bottom: 278px;
+}
+
+.vw-podcast-pro-ive-our-product-nav .owl-prev {
+    position: relative !important;
+    bottom: 278px;
+    margin-left: 90% !important;
+}
+
+.vw-podcast-pro-ive-latest-blog-slider .full-width-banner-slider-inner-item {
+    background-color: #ffffff;
+}
+
+.vw-podcast-pro-ive-latest-collection {
+    background-color: #f7f7f75e;
+    border: solid 8px var(--white);
+    border-radius: 50%;
+    padding: 15px;
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    right: 50%;
+    box-shadow: 0 0 1px 0px var(--lightgrey3);
+    z-index: 1;
+}
+
+.vw-podcast-pro-ive-best-seller-tab .ive-tabs-title-list {
+    position: absolute;
+    top: 11%;
+    left: 12%;
+    transform: translate(50%, 50%);
+}
+
+.vw-podcast-pro-ive-best-seller-tab .ive-tabs-title-list a {
+    border-right: 1px solid #cfcfcf !important;
+}
+
+.vw-podcast-pro-ive-trending-book img {
+    background-color: transparent !important;
+}
+
+.vw-podcast-pro-ive-trending-book .full-width-banner-slider-inner-item {
+    border: solid 1px #e8e8e8;
+}
+
+.vw-podcast-pro-ive-trending-book .woo-prod-img {
+    background-color: #f2f2f2 !important;
+    padding: 10px !important;
+}
+
+.vw-podcast-pro-ive-trending-book .price-tag {
+    background-color: #e4573d;
+    padding: 10px;
+    width: 40%;
+    position: absolute;
+    bottom: 39%;
+    right: 8%;
+}
+
+.vw-podcast-pro-ive-trending-book .price-tag:hover {
+    background-color: #e4573d;
+}
+
+.vw-podcast-pro-ive-trending-book .ibtana-product-cart-button a {
+    position: absolute;
+    top: 20%;
+    right: 31%;
+    display: none !important;
+}
+
+.vw-podcast-pro-ive-trending-book .full-width-banner-slider-inner-item:hover .ibtana-product-cart-button a {
+    display: block !important;
+}
+
+.vw-podcast-pro-ive-trending-book .onsale {
+    background-color: #e4573d;
+    padding: 5px 20px;
+    position: absolute;
+    left: 26px;
+    top: 15px;
+}
+
+.vw-podcast-pro-ive-trending-book .onsale:hover {
+    background-color: #e4573d;
+}
+
+.vw-podcast-pro-ive-our-product-image:hover {
+    transform: scale(1.1);
+}
+
+.vw-podcast-pro-ive-our-product-image:before,
+.vw-podcast-pro-ive-our-product-image:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(117, 182, 74, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    transform: scaleX(0);
+    transition: all 0.6s ease 0s;
+}
+
+.vw-podcast-pro-ive-our-product-image:after {
+    transform: scaleY(0);
+}
+
+.vw-podcast-pro-ive-our-product-image:hover:before {
+    transform: scaleX(1);
+}
+
+.vw-podcast-pro-ive-our-product-image:hover:after {
+    transform: scaleY(1);
+}
+
+.vw-podcast-pro-ive-our-product-social-media {
+    opacity: 0;
+    transform: scaleX(0);
+}
+
+.vw-podcast-pro-ive-our-author-image:hover .vw-podcast-pro-ive-our-product-social-media {
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+.vw-podcast-pro-ive-testimonial-heading {
+    border-bottom: solid 1px #525353;
+}
+
+.vw-podcast-pro-ive-our-author-cover {
+    opacity: 0 !important;
+}
+
+.vw-podcast-pro-ive-our-author-social-media {
+    margin-top: 75% !important;
+}
+
+.vw-podcast-pro-ive-our-author-image:hover .vw-podcast-pro-ive-our-author-cover {
+    opacity: 0.7 !important;
+}
+
+.vw-podcast-pro-ive-latest-blog .post-content-area {
+    background-color: #ffffff;
+}
+
+.vw-podcast-pro-ive-latest-blog .ive_latest_post_date_img {
+    background-color: #e4573d;
+    padding: 10px;
+    width: 35%;
+    position: absolute;
+    right: 0;
+    top: 259px;
+}
+
+.vw-podcast-pro-ive-latest-blog .post-image:before,
+.vw-podcast-pro-ive-latest-blog .post-image:after {
+    content: "";
+    width: 100%;
+    height: 58%;
+    background: rgba(117, 182, 74, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    transform: scaleX(0);
+    transition: all 0.6s ease 0s;
+}
+
+.vw-podcast-pro-ive-latest-blog .post-image:after {
+    transform: scaleY(0);
+}
+
+.vw-podcast-pro-ive-latest-blog .post-image:hover:before {
+    transform: scaleX(1);
+}
+
+.vw-podcast-pro-ive-latest-blog .post-image:hover:after {
+    transform: scaleY(1);
+}
+
+.vw-podcast-pro-ive-latest-blog .post-meta {
+    position: absolute;
+    top: 140px;
+    left: 180px;
+    transform: scaleX(0);
+}
+
+.vw-podcast-pro-ive-latest-blog .post-content-area:hover .post-meta {
+    transform: scaleX(1);
+}
+
+.vw-podcast-pro-ive-latest-blog .post-meta .ive_latest_post_comments {
+    border: 2px solid #ffff;
+    padding: 10px 40px;
+}
+
+.vw-podcast-pro-ive-newsletter-form input {
+    color: #ffff !important;
+    height: 54px;
+    border: solid 1px #ffffff;
+    margin-right: 4%;
+    background-color: transparent;
+    outline: none;
+}
+
+.vw-podcast-pro-ive-newsletter-form input[type="email"] {
+    width: 79% !important;
+}
+
+.vw-podcast-pro-ive-newsletter-form input[type="submit"] {
+    border: solid 1px #e4573d;
+    background-color: #e4573d;
+    float: right;
+    margin-top: -53px;
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    .vw-podcast-pro-ive-testimonial-icon i {
+        display: none;
+    }
+
+    .vw-podcast-pro-ive-latest-blog .ive_latest_post_date_img {
+        width: 46%;
+    }
+
+    .vw-podcast-pro-ive-newsletter-form input[type="email"] {
+        width: 75% !important;
+    }
+
+    .quote-image img {
+        height: 670px;
+        object-fit: cover;
+    }
+
+    .quote-image {
+        bottom: -84px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .freequote .col-lg-7.col-md-12.col-12 {
+        margin-bottom: 50px !important;
+    }
+
+    .vw-podcast-pro-ive-slider .carousel-content {
+        width: 70% !important;
+    }
+
+    .vw-podcast-pro-ive-our-author,
+    .vw-podcast-pro-ive-testimonial-heading {
+        display: flex !important;
+    }
+
+    .vw-podcast-pro-ive-latest-collection {
+        position: unset;
+        left: 0px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        transform: initial;
+        border-radius: 0;
+        height: auto;
+    }
+
+    .vw-podcast-pro-ive-best-seller-tab .ive-tabs-title-list {
+        position: unset;
+        transform: initial;
+    }
+
+    .vw-podcast-pro-ive-testimonial-icon i {
+        display: none;
+    }
+
+    .vw-podcast-pro-ive-testimonial-cover-inner .wp-block-columns {
+        flex-wrap: initial !important;
+    }
+
+    .vw-podcast-pro-ive-testimonial-cover-inner img {
+        width: 450px !important;
+        height: 152px !important;
+    }
+
+    .vw-podcast-pro-ive-latest-blog .ive_latest_post_date_img {
+        width: 40%;
+        top: 210px;
+    }
+
+    .vw-podcast-pro-ive-latest-blog .post-image:before,
+    .vw-podcast-pro-ive-latest-blog .post-image:after {
+        height: 53%;
+    }
+
+    .vw-podcast-pro-ive-newsletter-form input[type="email"] {
+        width: 77% !important;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .vw-podcast-pro-ive-slider .carousel-content {
+        width: 80% !important;
+    }
+
+    .vw-podcast-pro-ive-latest-collection {
+        position: unset;
+        left: 0px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        transform: initial;
+        border-radius: 0;
+        height: auto;
+    }
+
+    .vw-podcast-pro-ive-trending-book .price-tag {
+        right: 9%;
+    }
+
+    .vw-podcast-pro-ive-latest-blog .ive_latest_post_date_img {
+        width: 44% !important;
+        top: 184px !important;
+    }
+
+    .vw-podcast-pro-ive-testimonial-cover-inner .wp-block-columns {
+        flex-wrap: wrap !important;
+    }
+
+    .vw-podcast-pro-ive-testimonial-cover-inner img {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .vw-podcast-pro-ive-latest-blog .post-image:before,
+    .vw-podcast-pro-ive-latest-blog .post-image:after {
+        height: 50%;
+    }
+
+    .vw-podcast-pro-ive-newsletter-form input[type="email"] {
+        width: 57% !important;
+    }
+}
